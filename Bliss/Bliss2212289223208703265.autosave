@@ -1,0 +1,10 @@
+PImage img;
+
+void setup() {
+  size (2500,1000);
+  img = loadImage("blissDream.jpg"); 
+}
+
+void draw() {
+  image(img,-500,-2000); 
+}
